@@ -1,0 +1,14 @@
+adam:
+    hostip: ['10.0.0.1']
+    port: 502
+
+sensor:
+# ADAM6015 has 7 channels (0-6)
+    0:
+      ch0: 'test_plate'
+      ch1: 'test_plate'
+      ch2: 'test_plate'
+      ch3: 'test_plate'
+      ch4: 'test_plate'
+      ch5: 'test_plate'
+      ch6: 'test_plate'
